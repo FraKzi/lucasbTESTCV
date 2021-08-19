@@ -1,0 +1,223 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Sora:wght@300&family=Yanone+Kaffeesatz&display=swap');
+
+    body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 0;
+    margin: 0; 
+    text-align: center;  
+}
+    ul {
+    margin: 0;
+    padding: 0;
+
+}
+    li {
+    list-style-type: none;
+}
+    h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+
+}
+    a{
+        text-decoration: none;
+        color: black;
+
+    }
+
+/********************** NAV BAR *********************/
+
+   
+    nav{
+        overflow:hidden;
+        background: transparent;
+        position: fixed;
+        width: 100%;
+        
+    }
+     
+        #logo{
+            font-family: 'Sora', sans-serif;
+            font-weight: bold;
+            font-size: 1em;
+            float: left;
+        }
+
+ /************ IMAGE PRINCIPALE ****************/
+
+        #imagePrincipale{
+            padding-top: 60px;
+            background: url(media/background.jpg) no-repeat fixed 50% 50%;
+            background-size: cover;
+            height: 85vh;
+        }
+
+        h1 {
+            font-family: 'Julius Sans One', sans-serif;
+            text-align: center;
+            color: #fcfcfc;
+            font-size: 6em;
+            margin-top: 80px;
+            letter-spacing: .1em;
+            text-shadow:  -1px 4px 2px rgb(0 0 0);
+
+              }
+
+
+        h3{
+
+            font-family: 'Sora', sans-serif;
+            text-align: center;
+            color:#fcfcfc;
+            font-size: 1px;
+            
+        }
+        #premierTrait {
+            height: 1px;
+            width: 25%;
+            margin: -3px auto;
+            background-color: #ffffff;
+           box-shadow: 1px 1px 1px #000000
+        }
+
+        h3{
+
+        text-align: center;
+        color:#ffffff;
+        font-size: 3em;
+        text-shadow: 2px 1px 1px black;
+        }
+
+ /* *************PRESENTATION*********** */
+
+    #presentation {
+        background-color: #1A5653;
+        padding: 10px 0px 100px 0px;
+    }
+
+    #textIntro {
+        padding: 0px 20%;
+       }
+    #textIntro p {
+        font-size: 25px;
+    }
+
+   #moiMeme {
+       height:30vh;
+       display: center;
+       justify-content: space-between;
+       padding: 30px 10%;
+     }
+
+     .imageMoi h4{
+        font-family: 'Sora', sans-serif;
+         text-align: center;
+         font-size: 2em;
+         margin: 15px 10px;
+         font-weight: 300;
+     }
+
+    .imageMoi img {
+        -webkit-border-radius: 19px;
+        -moz-border-radius: 19px;
+         border-radius: 19px;
+        box-shadow: 5px 5px 15px 5px #000000;
+    }
+
+    .imageMoi img:hover {
+        opacity: 0.5;
+        transform: scale (1.05);
+        transition: 0.9s ease-in-out;
+
+    }
+
+/* ************ PARCOURS ********** */
+
+    #parcoursScolaire {
+        height: 500px;
+        background-color: #fff;
+        padding: 1px 1%;
+        padding-bottom: 1%;
+    }
+
+    #parcoursScolaire h2{
+        padding-top: 60px;
+        text-decoration: underline;
+    }
+
+    #parcoursScolaire li{
+        font-size: 2em;
+         text-align: center;
+        }
+    
+    #parcoursScolaire h4 {
+        font-size: 1em;
+        text-align: center;
+    }
+    #parcoursScolaire p{
+        font-size: 2em;
+        text-align: center;
+    }
+         
+   #parcourspro {
+
+    height: 400px;
+    background-color: #fff;
+    padding: 1px 1%;
+    padding-bottom: 1%;
+   }
+
+   #parcourspro h2{
+    padding-top: 0px;
+    text-decoration: underline;
+}
+
+#parcourspro li{
+    font-size: 2em;
+     text-align: center;
+    }
+        
+
+/* **********FOOTER*********** */
+footer{
+     background-color:#00735C;
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+
+#deuxiemeTrait{
+    height: 1px;
+    width: 75%;
+    background-color: white;
+    margin: 60px auto;
+}
+
+#copyrightetIcons{
+    
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+
+#copyright{
+    text-align: left;
+    width: 50%;
+}
+
+
+
+#icons a:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+}
